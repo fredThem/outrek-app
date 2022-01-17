@@ -14,8 +14,8 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown",
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
+    "*.{js,jsx,ts,tsx,mdx}": "eslint --cache --fix",
+    "*.{js,jsx,ts,tsx,css,md,mdx}": "prettier --write"
   },
   "browserslist": {
     "production": [
