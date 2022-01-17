@@ -17,7 +17,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "ignore-sync": "ignore-sync ."
+    "ignore-sync": "ignore-sync .",
+    "prettier:repo-fix": "npx prettier --write .",
+    "prettier:repo-check": "npx prettier --check ."
   },
   "eslintConfig": {
     "extends": [
